@@ -396,9 +396,9 @@ def main():
                 amplify_setting=int(filetxt)
                 newamp.close
             os.system('cls')
-            print (('Amplify seetins is at %s')% str(amplify_setting))
+            print (('Amplify settings is at %s')% str(amplify_setting))
             time.sleep(2)
-             
+            main()
         if (x == "q"):
             quit()
         else:            

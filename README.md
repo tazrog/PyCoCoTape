@@ -13,6 +13,7 @@ CoCo (1,2 or3)
 
 Instructions.
 
+Download the progam and put in a folder of your desire.
 Connect your Color Computer tape cable to your PC headphone and microphone jacks.
 Start the PyCoCoTape program from either the Windos executable or python script.
 
@@ -20,10 +21,10 @@ To record a progam from the CoCo you may need to swap the Headhone and mic conne
 The PyCoCoTape console should be showing on your PC with teh optins screen open
 
 Recording.
-TO record from the option menu, just the letter [r] (do not includd brakets) and then follow with a file name and press enter. (i.e. rCoCo and press enter and this will start a recorfing a tape named CoCo.) Then execute CSAVE on your CoCo. Once teh CoCO CSAVE is complete. Press [q] on the PC to stop the recording.
+To record from the option menu, just the letter [r] (do not includd brakets) and then follow with a file name and press enter. (i.e. rCoCo and press enter and this will start a recorfing a tape named CoCo.) Then execute CSAVE on your CoCo. Once teh CoCO CSAVE is complete. Press [q] on the PC to stop the recording.
 
 Playback.
-To playback a tape. You may need to swap the headphone and mic adapters on the PC. Executer a CLOAD on your CoCo. On the PC from the main menu, press [p] and the filen name/ (i.e. pcoco will playback the tape name coco.)
+To playback a tape. You may need to swap the headphone and mic adapters on the PC. Executer a CLOAD on your CoCo. On the PC from the main menu, press [p] and the filen name/ (i.e. pcoco will playback the tape name coco.) PLease note the files will be saved witht eh prefix "tape_". When typing in the name to be played you do not need to type the words "tape_".
 
 Settings.
 It make take some trial and error to get the volume and amplify seetings correct. PC sound systems vary so what works on one PC may not work on another. 

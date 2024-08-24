@@ -164,7 +164,7 @@ def playtape():
     #check for empty directory    
     chunk = 1024    
     print ("")       
-    choice= "file"+str(filetxt)+".wav"        
+    choice= "tape_"+str(filetxt)+".wav"        
     wavplay = BASE_DIR + "\\Programs\\"+ choice
     try:
         f = wave.open(wavplay,"rb")
@@ -398,7 +398,7 @@ def main():
             os.system('cls')
             print (('Amplify seetins is at %s')% str(amplify_setting))
             time.sleep(2)
-        main()       
+             
         if (x == "q"):
             quit()
         else:            

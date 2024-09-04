@@ -73,6 +73,9 @@ def soundsave():
             volcontent = str(currentVolumeDb)
             newvol.write(volcontent)
             newvol.close  
+    os.system('cls')
+    print ("Volume has been saved")
+    time.sleep(2)
     main()
 
 def record():
@@ -361,10 +364,10 @@ def main():
     print ("Please ensure the tape cables are in the right jacks.")
     print ("")
     print ("OPTIONS.")
-    print ("[r#] Record AutoFile")  
-    print ("[p#] Play AutoFile")
+    print ("[r###] Record AutoFile")  
+    print ("[p###] Play AutoFile")
     print ("") 
-    print ("[a] Set & Save Amplify Level")  
+    print ("[a###] Set & Save Amplify Level")  
     print ("[v] Save Current Volume Level")      
     print ("[f] File List/Delete Programs") 
     print ("[s] Settings")

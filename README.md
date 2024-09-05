@@ -8,7 +8,7 @@ Program still in testing.
 Requirements:
 Windows PC
 CoCo tape cable
-CoCo (1,2 or3)
+CoCo (1,2 or 3)
 
 Instructions.
 

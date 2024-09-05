@@ -340,16 +340,7 @@ def settings():
             newamp.write(ampcontent)
             newamp.close
         main()
-    if (setinput == 4):            
-            print ("***WARNING*** This could delete WAV files.\n")
-            with open('file.txt', 'r') as filetxt:         
-                file_number = filetxt.read()
-                filetxt.close
-            file_number =input("Enter file number. Old file number is %s: "% file_number)
-            with open('file.txt', 'w') as filetxt:            
-                filetxt.write(file_number)    
-                filetxt.close
-            main()        
+          
     else:
         main()
 
